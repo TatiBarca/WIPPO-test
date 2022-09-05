@@ -1,0 +1,66 @@
+.service {
+    padding: 90px 140px 180px 180px;
+}
+
+.service span {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8447E9;
+}
+
+.service button {
+    position: absolute;
+    bottom: 65px;
+    right: 0;
+    border: 1px solid #8447E9;
+    color:#8447E9;
+    padding: 20px 30px;
+}
+
+.service h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+}
+
+.servBlock {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.servDetails {
+    width: 28%;
+    margin-bottom: 65px;
+}
+
+.servDetails a{
+    position: relative;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
+.servDetails a:after {
+    content: url('./../../images/logos/curve.png');
+    position: absolute;
+    left:0;
+    bottom:-7px;
+    /* width: 85px; */
+}
+
+.subtitle{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #8447E9;
+}
+
+.servDetails p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+

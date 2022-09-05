@@ -1,0 +1,53 @@
+.footer {
+    background-color:grey;
+    background: url('./../../images/footer/Vector.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 0 180px;
+}
+
+.social:after{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background:#BDB0EC;
+    bottom: 50px;
+    left: 0;
+    position: absolute;
+}
+
+.footerNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 330px ;
+}
+
+.nav a{
+    text-decoration: none;
+    margin-right: 60px;
+    color: white;
+}
+
+.nav a:last-child{
+    margin-right: 0;
+}
+
+.social {
+    position: relative;
+    text-align: right;
+    padding-bottom: 140px;
+    margin-top: 60px;
+}
+
+.social a{
+    margin-right: 30px;
+}
+
+.nav a:hover{
+    color:#8447E9;
+}
+
+.social a:last-child{
+    margin-right: 0;
+}

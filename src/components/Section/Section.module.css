@@ -1,0 +1,42 @@
+.section {
+    padding: 160px 0 100px 0;
+    text-align: center;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 62px;
+    line-height: 76px;
+    margin: 0;
+}
+
+h1 .span{
+    color: #8447E9;
+    display: inline-block;
+    position: relative;
+}
+
+.buttons {
+    margin-top: 80px;
+}
+
+h1 .span:before{
+    content: url('./../../images/logos/line3.png');
+    position: absolute;
+    bottom: -15px;
+    width: 100%;
+    left: 5px;
+}
+
+.sectionBtn {
+    background-color: #8447E9;
+    color: white;
+    padding: 20px 30px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.videoBtn img {
+    margin-right: 15px;
+    margin-left: 45px;
+}

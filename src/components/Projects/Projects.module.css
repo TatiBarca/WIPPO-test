@@ -1,0 +1,64 @@
+.project {
+    color: white;
+    background-color:#8447E9 ;
+    padding: 135px 180px;
+}
+
+.project h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    /* position: relative; */
+    }
+
+.block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.block button {
+    color: white;
+    border: 1px solid white;
+    padding: 20px 30px;
+    margin-top: 30px;
+}
+
+.block img {
+    margin: 0;
+}
+
+.blockAbout {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-top: 35px;
+    padding-bottom: 65px;
+}
+
+.blockAbout .span {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.blockProducts {
+    width:48%;
+    margin-right:5px;
+}
+
+.blockProducts img {
+    width: 100%;
+}
+
+.wave{
+    position: relative;
+}
+
+.wave::after {
+    content: url('./../../images/projects/Vector.png');
+    position: absolute;
+    bottom: -10px;
+    right: 10px;
+}
+

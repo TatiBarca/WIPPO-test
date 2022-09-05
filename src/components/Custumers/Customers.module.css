@@ -1,0 +1,58 @@
+.section {
+    padding: 110px 220px 130px 180px;
+}
+
+.section h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    margin: 0;
+}
+
+.sectionBlock {
+    position: relative;
+    display: flex;
+    align-items:center;
+    background-color: #E1DBF6;
+    padding: 110px 35px;
+    margin-top: 80px;
+}
+
+.sectionDesc {
+    padding-right: 25px;
+}
+
+.sectionBlock:after{
+    content: url('./../../images/customer/line.png');
+    position: absolute;
+    right: 35px;
+}
+
+.name{
+    font-weight: 500;
+    color: #8447E9;
+}
+
+.text{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.personPost {
+    font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+}
+
+.span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color:black;
+}
+
+.img {
+    margin-right: 60px;
+}
+
